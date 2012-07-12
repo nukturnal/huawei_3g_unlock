@@ -1,6 +1,6 @@
 # Huawei 3G Unlock
 
-A ruby implementation of Huawei 3G modem unlock/flash code generator. Tested on E1550 Models, I am positive it might work on other similar models. Comes also with a commandline tool(huawei3g) to quickly generate codes by specifying modems IMEI number.
+A ruby implementation of Huawei 3G modem unlock/flash code generator. Comes also with a commandline tool(huawei3g) to quickly generate codes by specifying modems IMEI number.
 
 ## Installation
 
@@ -41,7 +41,7 @@ Result will be similar to the results below
 	
 ## Tests
 
-This has been tested on Huawei E1550 Model using ruby 1.8.7. Should work fine on other similar Huawei models
+This has been tested on Huawei E156, E155, E1550, E1552, E156G, E160, E160G, E161, E166, E169, E169G, E170,E172 E176, E1762, E180, E182E, E196, E226, E270, E271, E272, E510, E612, E618, E620, E630 E630+, E660, E660A, E800, E870, E880, EG162, E880, EG162, EG162G, EG602, EG602G Models using ruby 1.8.7. Should work fine on other similar Huawei models
 
 ## Contributing
 
