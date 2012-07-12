@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["alfred.rowe@gmail.com"]
   gem.description   = %q{A ruby implementation of Huawei 3G modem unlock/flash code generator. Tested on E1550 Models, I am positive it might work on other similar models. Comes also with a commandline tool(huawei3g) to quickly generate codes by specifying modems IMEI number.}
   gem.summary       = %q{Huawei Mobile Broadband Carrier Unlock/Flash Code Generator}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/nukturnal/huawei_3g_unlock"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
